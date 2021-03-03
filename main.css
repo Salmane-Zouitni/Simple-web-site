@@ -1,0 +1,190 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.navbar {
+    font-weight: 700;
+    font-family:  Helvetica;
+    color: grey;
+    max-height: 10px;
+}
+
+.navbar img {
+    float: left;
+}
+
+ nav {
+    width: 100%;
+
+ }
+ .card img {
+     border: 5px solid black
+ }
+
+ .card-body {
+    text-align : left;
+ }
+
+
+
+.row {
+    margin-left: 5px;
+}
+
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  
+
+  #img-size img {
+    width: 300px;
+  }
+    
+  
+  hr {
+      height: 5px !important ;
+      background-color: greenyellow;
+  }
+
+  #lighting {
+      color: white;
+  }
+
+.termeOfUse {
+    color: white;
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+}
+
+#navbarContent {
+    margin-left: 600px;
+}
+
+.terme {
+    background-color: rgb(52, 58, 64) !important ;
+    color: black ;
+    padding-top: 10px;
+}
+.terme ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+.footer  {
+    background-color: rgb(52, 58, 64) !important ;
+    margin: 0  ;
+}
+.footer h3 {
+    color: white;
+
+}
+.img-jump img {
+    height: 100%;
+}
+
+#form {
+    display: none;
+}
+
+
+
+#myImg1:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 0.7;}
+#myImg3:hover {opacity: 0.7;}
+#myImg4:hover {opacity: 0.7;}
+#myImg5:hover {opacity: 0.7;}
+#myImg6:hover {opacity: 0.7;}
+
+#myImg1, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+  
+  /* Caption of Modal Image */
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    position: absolute relative ;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal img {
+    height:100% ;
+    width: 100%;
+  
+    
+  }
+  
+#article1 {
+    display: none;
+}  
+#article1 img {
+    max-height: 400px ; 
+    max-width: 60%;
+}
+
+#article1 card {
+    width: 100%;
+    height: 100%;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
