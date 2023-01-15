@@ -1,2 +1,2 @@
 # Simple-web-site
-first site web project university
+Simeple static website mini-project university.
